@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Contenue">
+        <h1>Lego Webstore</h1>
+        <hr>
+        <ul><li><a href="./PageAccueilLego.html">Accueil</a></li>
+        <li><a href="./Formulaire.html">Acheter</a></li>
+        </ul>    
+        <hr>
+        <h2>Acheter des LEGO</h2>
+        <p>Remplissez le formulaire ci-dessous pour commander des LEGO !</p>
+        <h3>Informations personnelles</h3>
+
+        <form>
+            <input type="radio" id="Mr" name="Mr" value="Mr">
+            <label for="Mr">Mr</label>
+            <input type="radio" id="Mme" name="Mme" value="Mme">
+            <label for="Mme">Mme</label><br>
+        </form>
+        <form >
+            <label for="Nom">Nom:</label><br><br>
+            <input type="text" id="Nom" name="Nom" value="votre Nom"><br><br>
+            <label for="Prenom">Prenom:</label><br><br>
+            <input type="text" id="Prenom" name="Prenom" value="votre Prenom"><br><br>
+            <label for="Email">Email:</label><br><br>
+            <input type="text" id="Email" name="Email" value="votre Email"><br><br>
+            <input type="submit" value="Submit">
+          </form>     
+        <h3>Informations de livraison</h3>
+        <p>Quantité commander:</p>
+        <form>
+            <select name="Choix" id="choix">
+                <option value="1">1 boite</option>
+                <option value="2">2 boite</option>
+                <option value="3">3 boite</option>
+                <option value="4">4 boite</option>
+            </select>
+        </form>
+        <p>Adresse de livraison</p>
+        <textarea name="Adresse" id="adresse"></textarea>
+        <h3>Confirmation</h3>
+        <form>
+            <input type="checkbox" id="Condition" name="Condition" value="Condition">
+            <label for="Condition"> J'ai relu ma commande et certifie que ces informations sont correctes.</label><br>
+        </form>    
+
+    </div>
+</body>
+</html>

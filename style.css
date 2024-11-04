@@ -1,0 +1,22 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.Contenue{
+    box-sizing: border-box;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: whitesmoke;
+    padding: 16px;
+}
